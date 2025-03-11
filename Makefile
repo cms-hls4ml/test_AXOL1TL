@@ -7,7 +7,7 @@ HLS_ROOT := /cvmfs/cms.cern.ch/el8_amd64_gcc11/external/hls/2019.08-fd724004387c
 HLS4ML_INCLUDE := $(EMULATOR_EXTRAS)/include/hls4ml
 INCLUDES := -I$(HLS4ML_INCLUDE) -I$(AP_TYPES) -I$(HLS_ROOT)/include
 LD_FLAGS := -L$(EMULATOR_EXTRAS)/lib64 -lemulator_interface -ldl
-ALL_VERSIONS:=AXOL1TL/AXOL1TL_v3/GTADModel_v3.so
+ALL_VERSIONS:=AXOL1TL/AXOL1TL_v5/GTADModel_v5.so
 
 .DEFAULT_GOAL := all
 .PHONY: all clean install
